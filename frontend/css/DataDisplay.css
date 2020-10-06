@@ -1,0 +1,41 @@
+.user-display {
+  margin: auto;
+  flex-direction: row;
+  display: inline
+}
+
+.user-name {
+  width: 140px;
+  text-align: left;
+  flex-direction: row;
+}
+
+.user-activated {
+  width: 140px;
+  text-align: right;
+  flex-direction: row;
+}
+
+.user-display.selected {
+  background-color: lightblue;
+}
+
+p {
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+label {
+  display: inline
+}
+
+input, optgroup, textarea {
+  margin: 4px;
+}
+
+button, select {
+  margin: 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 300px;
+}

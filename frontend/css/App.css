@@ -1,0 +1,21 @@
+.App {
+  max-width: 1200px;
+  margin: 100px;
+  display: flex column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
+}
+
+.control-container {
+  display: flex grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert {
+  width: 300px;
+  font-size: 11px;
+  padding: 10px;
+  text-align: center;
+}
